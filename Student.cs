@@ -18,7 +18,8 @@ namespace lightningExercises
         //this is an expression body function that just returns the full name
         public string FullName { get => $"{_firstName} {_lastName}"; }
 
-        public List<Exercise> AssignedExercises = new List<Exercise>();
+        //theres a 'get' because I want to be able to get a list of the exercises for each student
+        public List<Exercise> AssignedExercises { get; } = new List<Exercise>();
 
 
         //Constructor that accepts first name and last name
