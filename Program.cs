@@ -38,15 +38,24 @@ namespace lightningExercises
             exercise1.GithubUrl = "www.github.com";
 
             Exercise exercise2 = new Exercise();
-            exercise1.Name = "Kill Nickelback";
-            exercise1.Language = "C#";
-            exercise1.GithubUrl = "www.github.com";
+            exercise2.Name = "Kill Nickelback";
+            exercise2.Language = "C#";
+            exercise2.GithubUrl = "www.github.com";
 
             Exercise exercise3 = new Exercise();
-            exercise1.Name = "Nut Shell";
-            exercise1.Language = "JavaScript";
-            exercise1.GithubUrl = "www.github.com";
+            exercise3.Name = "Nut Shell";
+            exercise3.Language = "JavaScript";
+            exercise3.GithubUrl = "www.github.com";
 
+            steve.AssignExercise(leah, exercise1);
+            steve.AssignExercise(natasha, exercise1);
+            steve.AssignExercise(natasha, exercise2);
+            steve.AssignExercise(natasha, exercise3);
+
+            foreach (Exercise exercise in natasha.AssignedExercises)
+            {
+                Console.WriteLine($"Natasha's Exercises: {exercise.Name}");
+            }
         }
     }
 }

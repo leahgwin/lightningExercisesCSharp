@@ -4,7 +4,6 @@ using System.Collections.Generic;
 
 namespace lightningExercises
 {
-
     // Create an `Instructor` class with the following properties and fields
     // 1. private fields for first name and last name
     // 2. Public calculated property that returns "Firstname Lastname" of instructor
@@ -27,9 +26,5 @@ namespace lightningExercises
         {
             student.AssignedExercises.Add(exercise);
         }
-
-
     }
-
-
 }
