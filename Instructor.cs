@@ -21,8 +21,6 @@ namespace lightningExercises
             _firstName = firstName;
             _lastName = lastName;
         }
-
-
     }
 
 
