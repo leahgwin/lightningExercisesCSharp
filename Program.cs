@@ -9,10 +9,11 @@ namespace lightningExercises
     {
         static void Main(string[] args)
         {
+            //creating the cohort
             Cohort cohort26 = new Cohort();
-
+            //creating the instructor
             Instructor steve = new Instructor("Steve", "Brownlee");
-
+            //creating the students
             Student leah = new Student("Leah", "Gwin");
             Student natasha = new Student("Natasha", "Cox");
             Student shu = new Student("Shu", "Sajid");
@@ -20,7 +21,7 @@ namespace lightningExercises
             Student will = new Student("Will", "Kimball");
             Student vik = new Student("Vik", "Reddy");
 
-
+            //adding those students and instructors to the list they belong
             cohort26.InstructorList.Add(steve);
             cohort26.StudentList.Add(leah);
             cohort26.StudentList.Add(natasha);
@@ -29,6 +30,22 @@ namespace lightningExercises
             cohort26.StudentList.Add(will);
             cohort26.StudentList.Add(vik);
 
+
+            //making the exercises
+            Exercise exercise1 = new Exercise();
+            exercise1.Name = "ChickenMonkey";
+            exercise1.Language = "JavaScript";
+            exercise1.GithubUrl = "www.github.com";
+
+            Exercise exercise2 = new Exercise();
+            exercise1.Name = "Kill Nickelback";
+            exercise1.Language = "C#";
+            exercise1.GithubUrl = "www.github.com";
+
+            Exercise exercise3 = new Exercise();
+            exercise1.Name = "Nut Shell";
+            exercise1.Language = "JavaScript";
+            exercise1.GithubUrl = "www.github.com";
 
         }
     }

@@ -21,6 +21,14 @@ namespace lightningExercises
             _firstName = firstName;
             _lastName = lastName;
         }
+
+        // Write a method on the `Instructor` class that will allow you to assign an individual exercise to an individual student
+        public void AssignExercise(Student student, Exercise exercise)
+        {
+            student.AssignedExercises.Add(exercise);
+        }
+
+
     }
 
 

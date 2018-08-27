@@ -1,0 +1,11 @@
+/Users/Leah/workspace/csharp/exercises/lightningExercises/bin/Debug/netcoreapp2.1/lightningExercises.deps.json
+/Users/Leah/workspace/csharp/exercises/lightningExercises/bin/Debug/netcoreapp2.1/lightningExercises.runtimeconfig.json
+/Users/Leah/workspace/csharp/exercises/lightningExercises/bin/Debug/netcoreapp2.1/lightningExercises.runtimeconfig.dev.json
+/Users/Leah/workspace/csharp/exercises/lightningExercises/bin/Debug/netcoreapp2.1/lightningExercises.dll
+/Users/Leah/workspace/csharp/exercises/lightningExercises/bin/Debug/netcoreapp2.1/lightningExercises.pdb
+/Users/Leah/workspace/csharp/exercises/lightningExercises/obj/Debug/netcoreapp2.1/lightningExercises.csprojAssemblyReference.cache
+/Users/Leah/workspace/csharp/exercises/lightningExercises/obj/Debug/netcoreapp2.1/lightningExercises.csproj.CoreCompileInputs.cache
+/Users/Leah/workspace/csharp/exercises/lightningExercises/obj/Debug/netcoreapp2.1/lightningExercises.AssemblyInfoInputs.cache
+/Users/Leah/workspace/csharp/exercises/lightningExercises/obj/Debug/netcoreapp2.1/lightningExercises.AssemblyInfo.cs
+/Users/Leah/workspace/csharp/exercises/lightningExercises/obj/Debug/netcoreapp2.1/lightningExercises.dll
+/Users/Leah/workspace/csharp/exercises/lightningExercises/obj/Debug/netcoreapp2.1/lightningExercises.pdb
